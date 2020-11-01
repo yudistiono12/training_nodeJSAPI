@@ -1,0 +1,26 @@
+GET http://localhost:3000/mahasiswa
+
+###
+
+GET http://localhost:3000/mahasiswa/5f9635dc781d1e0fdc3176b7
+
+###
+POST http://localhost:3000/mahasiswa
+Content-Type: application/json
+
+{
+    "nim" : "E41180345",
+    "nama" : "Rika ",
+    "alamat" : "tasnan",
+    "no_hp" : "083858982920"
+}
+
+###
+DELETE http://localhost:3000/mahasiswa/5f964612821a0e11956fbb99
+
+###
+PATCH http://localhost:3000/mahasiswa/5f965a474ea1201d675e9fac
+Content-Type: application/json
+{
+    "nim" : "E41180999"
+}
